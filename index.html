@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leap Year Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>KNOW YOUR YEAR</h2>
+        </div>
+        <br />
+        <form onsubmit="return false" id="myForm">
+            <h2>Leap Year Calculator</h2>
+            <br />
+            <div id="leap">
+                <input id="leapyear" type="text" placeholder="" />
+                <br />
+                <div id="result"></div>
+                <br />
+                <button id="calculate" onclick="showInfo()">calculate</button>
+                <br />
+                <br />
+                <button id="clear" onclick="clearAll()">clear</button> <br />
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

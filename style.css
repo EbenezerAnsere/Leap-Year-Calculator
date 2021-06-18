@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: olivedrab;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 20px 35%;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+#leapyear {
+    margin-left: 25%;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+#result {
+    width: 200px;
+    height: 50px;
+    margin: 3px 25%;
+    border: 2px solid black;
+}
+
+#calculate {
+    margin-left: 40%;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#clear {
+    margin-left: 40%;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 2px solid black;
+}
